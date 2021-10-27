@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #1c04f3;
+    color:#fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: #04d1f5;
+}
+
+/*Grid de Produtos */
+.container {
+    background-color: #EEE;
+    min-height: 80vh;
+    padding: 90px;
+}
+.products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 20px;
+}
+
+.product-image{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 15px;
+    background-position: center;
+    background-size: cover;
+}
+
+#ps1{
+    background-image: url('../img/ps1.jpg');
+}
+#ps2{
+    background-image: url('../img/ps2.jpeg');
+}
+#ps3{
+    background-image: url('../img/ps3.jpg');
+}
+#ps4{
+    background-image: url('../img/ps4.jpg');
+}
+#ps5{
+    background-image: url('../img/ps5.jpg');
+}
+
+h3{
+    margin-bottom: 10px;
+    color: #1c04f3;
+    border-left: 5px solid #04d1f5;
+    padding: 8px;
+    font-size: 30px;
+}
+
+.card p{
+    margin-bottom: 15px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #06ff6e;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    transition: .5s;
+}
+.btn:hover{
+    background-color: #005f28;
+}
+/* Footer */
+footer{
+    background-color: #1c04f3;
+    color:#fff;
+    border-top: 3px solid #04d1f5;
+    text-align: center;
+    padding: 20px;
+
+}
